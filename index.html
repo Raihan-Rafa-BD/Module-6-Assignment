@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to My Profile</h1>
+        <p>Hello! My name is Alex, and this is my personal webpage.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About Me</a> |
+        <a href="#education">Education</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                I am a <b>student</b> who enjoys learning new things.
+                I am <i>creative and hardworking</i>.
+                My goal is to become a
+                <u>successful professional</u>.
+                <mark>I love learning HTML and web development!</mark>
+            </p>
+
+            <!-- Image -->
+            <h3>My Photo</h3>
+            <img
+                src="https://share.google/cRqXNBkiITuz2WXmx"
+                alt="Placeholder profile photo"
+                width="200"
+                height="200"
+            >
+
+            <!-- Multimedia -->
+            <h3>Audio</h3>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+
+            <!-- Details and Summary -->
+            <details>
+                <summary>More About Me</summary>
+                <p>
+                    I enjoy reading books, listening to music,
+                    playing games, and spending time with friends.
+                </p>
+            </details>
+        </section>
+
+        <hr>
+
+        <!-- Education Table -->
+        <section id="education">
+            <h2>My Academic Information</h2>
+
+            <table border="1" cellpadding="8">
+                <tr>
+                    <th>Level</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>Primary School</td>
+                    <td>ABC School</td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td>High School</td>
+                    <td>XYZ School</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>College</td>
+                    <td>Example College</td>
+                    <td>2026</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Form Section -->
+        <section id="contact">
+            <h2>Personal Information Form</h2>
+
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password"
+                       name="password" required>
+                <br><br>
+
+                <p>Gender:</p>
+                <input type="radio" id="male"
+                       name="gender" value="Male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female"
+                       name="gender" value="Female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other"
+                       name="gender" value="Other">
+                <label for="other">Other</label>
+                <br><br>
+
+                <p>Hobbies:</p>
+                <input type="checkbox" id="reading"
+                       name="hobbies" value="Reading">
+                <label for="reading">Reading</label>
+
+                <input type="checkbox" id="music"
+                       name="hobbies" value="Music">
+                <label for="music">Music</label>
+
+                <input type="checkbox" id="sports"
+                       name="hobbies" value="Sports">
+                <label for="sports">Sports</label>
+                <br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- Clickable Button -->
+        <section>
+            <h2>Say Hello!</h2>
+            <button type="button"
+                onclick="alert('Hello! Thank you for visiting my profile!')">
+                Click Me
+            </button>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Alex | My Personal Profile</p>
+    </footer>
+
+</body>
+</html>
